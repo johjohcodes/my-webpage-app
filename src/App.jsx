@@ -13,19 +13,17 @@ import FormFiller from './component/FormFiller.jsx';
 function App() {
   // Define your routes here
   return (
-    //  <Router>
-    //   <Nav/>
-    //   <Routes>
-    //     <Route path='/'element = {<Home/>}/>
-    //     <Route path='/user/:username' element = {<User/>}/>
-    //     {/* <Route path='/about'element = {<About/>}/>
-    //     <Route path='/contact'element = {<Contact/>}/>
-    //     <Route path='/post' element = {<Post/>}/> */}
-    //   </Routes>
-    //   <div></div>
-    //  </Router>
-
-     <FormFiller />
+     <><Router>
+      <Nav />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/user/:username' element={<User />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/post' element={<Post />} />
+      </Routes>
+      <div></div>
+    </Router><FormFiller /></>
       
   );
 }
