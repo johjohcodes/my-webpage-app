@@ -35,7 +35,7 @@ const FormFiller = () => {
 
 return (
     <div className="form-filler">
-        <h1>Form Filler</h1>
+        {/* <h1>Form Filler</h1>
         <form onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="name">Name:</label>
@@ -65,7 +65,7 @@ return (
             </div>
             <button type="submit">Submit</button>
         
-        </form>
+        </form> */}
     </div>
   );
 }
