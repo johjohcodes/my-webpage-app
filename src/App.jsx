@@ -8,6 +8,7 @@ import Post from './pages/Post.jsx';
 import Nav from './component/nav.jsx';
 import User from './pages/User.jsx';
 import FormFiller from './component/FormFiller.jsx';
+import PlayWork from './pages/PlayWork.jsx';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/post' element={<Post />} />
       </Routes>
-      <div></div>
+      <PlayWork />
     </Router><FormFiller /></>
       
   );
