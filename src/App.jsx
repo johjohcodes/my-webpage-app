@@ -9,6 +9,7 @@ import Nav from './component/nav.jsx';
 import User from './pages/User.jsx';
 import FormFiller from './component/FormFiller.jsx';
 import PlayWork from './pages/PlayWork.jsx';
+import Footer from './component/Footer.jsx';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path='/post' element={<Post />} />
       </Routes>
       <PlayWork />
+      <Footer />
     </Router><FormFiller /></>
       
   );
